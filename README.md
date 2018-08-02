@@ -12,6 +12,14 @@ First of all, unlike what many people think, Reactive Programming **is not** eit
 
 **Reactive Programming** is an event-based asynchronous programming paradigm which you have asynchronous data streams that can be observed and you can define actions when it emits values.
 
+<p align="center">
+  <img src="img/mantra.jpeg" />
+</p>
+
+To dive into this awesome paradigm, you need to incorporate an important mantra: *Everything can be a data stream*. Really? Everything? Yes, you can create data streams with HTTP calls, click events, text change events, variable changes and WHATEVER!
+
+Aside the asynchronous approach, you can run all tasks in different background tasks without blocking the main thread.
+
 ## Examples
 - [Example 1](example1/): Creating observables with **.from_** function
 - [Example 2](example2/): Using **filter** operator
